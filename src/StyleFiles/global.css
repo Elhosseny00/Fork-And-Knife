@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--white-color);
+}
+
+:root {
+  --white-color: #e7e7e9;
+  --black-color: #010101;
+  --red-color: #f44144;
+  --font-family: 'Pacifico', cursive;
+  --margin: 60px 0;
+  --transition: 0.5s;
+}
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:focus {
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+p {
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
+.container {
+  padding: 30px 20px;
+}
+
+.header {
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  text-align: center;
+}
+
+.header h3 {
+  font-family: var(--font-family);
+  color: var(--black-color);
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+
+.header h3 span {
+  color: var(--red-color);
+}
+
+@media (max-width: 767px) {
+  .header h3 {
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+}
+
+.scroll {
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  z-index: 10000;
+  padding: 6px;
+  background-color: var(--red-color);
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+  color: var(--white-color);
+  transform: translateX(150%);
+  -webkit-transform: translateX(150%);
+  -moz-transform: translateX(150%);
+  -ms-transform: translateX(150%);
+  -o-transform: translateX(150%);
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -ms-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+}
+
+.scroll.active {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}

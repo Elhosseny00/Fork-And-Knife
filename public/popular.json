@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "beef burger",
+    "sizes": [
+      { "size": "S", "price": 5.66 },
+      { "size": "M", "price": 8.0 },
+      { "size": "L", "price": 12.0 }
+    ],
+    "image": "/ProductImages/burger-2.webp",
+    "category": "burger"
+  },
+  {
+    "id": 2,
+    "name": "cheese pizza",
+    "sizes": [
+      { "size": "S", "price": 12.05 },
+      { "size": "M", "price": 22.0 },
+      { "size": "L", "price": 25.0 }
+    ],
+    "image": "/ProductImages/pizza-2.webp",
+    "category": "pizza"
+  },
+  {
+    "id": 3,
+    "name": "cheese burger",
+    "sizes": [
+      { "size": "S", "price": 8.0 },
+      { "size": "M", "price": 9.5 },
+      { "size": "L", "price": 12.0 }
+    ],
+    "image": "/ProductImages/burger-4.webp",
+    "category": "burger"
+  },
+  {
+    "id": 4,
+    "name": "vanilla ice cream",
+    "sizes": [
+      { "size": "S", "price": 4.0 },
+      { "size": "M", "price": 6.5 },
+      { "size": "L", "price": 8.0 }
+    ],
+    "image": "/ProductImages/ice-cream3.webp",
+    "category": "ice-cream"
+  },
+  {
+    "id": 5,
+    "name": "vegetable pizza",
+    "sizes": [
+      { "size": "S", "price": 12.5 },
+      { "size": "M", "price": 15.0 },
+      { "size": "L", "price": 18.25 }
+    ],
+    "image": "/ProductImages/pizza-1.webp",
+    "category": "pizza"
+  },
+  {
+    "id": 6,
+    "name": "strawberry ice cream",
+    "sizes": [
+      { "size": "S", "price": 6.5 },
+      { "size": "M", "price": 8.0 },
+      { "size": "L", "price": 10.0 }
+    ],
+    "image": "/ProductImages/ice-cream2.webp",
+    "category": "ice-cream"
+  },
+  {
+    "id": 7,
+    "name": "hot burger",
+    "sizes": [
+      { "size": "S", "price": 10.5 },
+      { "size": "M", "price": 13.0 },
+      { "size": "L", "price": 15.0 }
+    ],
+    "image": "/ProductImages/burger-1.webp",
+    "category": "burger"
+  },
+  {
+    "id": 8,
+    "name": "seafood pizza",
+    "sizes": [
+      { "size": "S", "price": 15.5 },
+      { "size": "M", "price": 18.5 },
+      { "size": "L", "price": 23.0 }
+    ],
+    "image": "/ProductImages/pizza-3.webp",
+    "category": "pizza"
+  },
+  {
+    "id": 9,
+    "name": "vegetable burger",
+    "sizes": [
+      { "size": "S", "price": 8.5 },
+      { "size": "M", "price": 10.5 },
+      { "size": "L", "price": 11.0 }
+    ],
+    "image": "/ProductImages/burger-3.webp",
+    "category": "burger"
+  },
+  {
+    "id": 10,
+    "name": "biscuit ice cream",
+    "sizes": [
+      { "size": "S", "price": 8.5 },
+      { "size": "M", "price": 10.5 },
+      { "size": "L", "price": 11.0 }
+    ],
+    "image": "/ProductImages/ice-cream-1.webp",
+    "category": "ice-cream"
+  },
+  {
+    "id": 11,
+    "name": "mozzarella pizza",
+    "sizes": [
+      { "size": "S", "price": 6.5 },
+      { "size": "M", "price": 8.5 },
+      { "size": "L", "price": 10.0 }
+    ],
+    "image": "/ProductImages/pizza-4.webp",
+    "category": "pizza"
+  },
+  {
+    "id": 12,
+    "name": "biscuit ice cream",
+    "sizes": [
+      { "size": "S", "price": 8.5 },
+      { "size": "M", "price": 10.5 },
+      { "size": "L", "price": 11.0 }
+    ],
+    "image": "/ProductImages/ice-cream-4.webp",
+    "category": "ice-cream"
+  }
+]

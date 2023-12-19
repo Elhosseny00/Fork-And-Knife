@@ -1,0 +1,471 @@
+:root {
+  --white-color: #e7e7e9;
+  --black-color: #010101;
+  --red-color: #f44144;
+  --font-family: 'Pacifico', cursive;
+  --margin: 60px 0;
+  --transition: 0.5s;
+}
+
+.shop .wrapper {
+  padding: 25px;
+  display: flex;
+  width: 100%;
+  margin: 30px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.shop .wrapper .text {
+  width: 60%;
+}
+
+.shop .wrapper .text h5 {
+  font-size: 14px;
+  color: var(--black-color);
+  text-transform: uppercase;
+}
+
+.shop .wrapper .text h2 {
+  color: var(--black-color);
+  font-size: 40px;
+  line-height: 1.3;
+}
+
+.shop .wrapper .text h2 span {
+  padding: 6px 25px;
+  background-color: var(--red-color);
+  color: var(--white-color);
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  font-family: var(--font-family);
+  letter-spacing: 4px;
+  font-weight: normal;
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  font-size: 25px;
+}
+
+.shop .wrapper .text a {
+  margin: 20px 0;
+  display: inline-block;
+  padding: 8px 25px;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.shop .wrapper .text a:hover {
+  background-color: var(--red-color);
+}
+
+.shop .wrapper .img-box {
+  z-index: -1;
+  width: 700px;
+  height: 230px;
+  background-color: var(--red-color);
+  border-radius: 150px;
+  position: absolute;
+  right: -15%;
+  top: 40px;
+  transform: rotate(-9deg);
+  -webkit-transform: rotate(-9deg);
+  -moz-transform: rotate(-9deg);
+  -ms-transform: rotate(-9deg);
+  -o-transform: rotate(-9deg);
+  background-image: url(../Images/land-3.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.shop .shop-container {
+  margin: var(--margin);
+
+}
+
+.shop .shop-container .shop-section {
+  margin: var(--margin);
+}
+
+.shop .shop-container .shop-section .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  padding: 12px 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.shop .shop-container .shop-section .btns li {
+  padding: 4px 20px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  font-weight: 500;
+  color: var(--black-color);
+  font-family: var(--font-family);
+  cursor: pointer
+}
+
+.shop .shop-container .shop-section .btns li.active {
+  background-color: var(--red-color);
+  color: var(--white-color);
+}
+
+.shop .shop-container .shop-section .cards {
+  margin: var(--margin);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.shop .shop-container .shop-section .cards .card {
+  padding: 12px 6px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 12px 6px;
+  background-color: var(--white-color);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  position: relative;
+}
+
+.shop .shop-container .shop-section .cards .card .discount {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  background-color: red;
+  width: 30px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: vertical-rl;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: var(--font-family);
+}
+
+.shop .shop-container .shop-section .cards .card .discount::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  border: 12px solid;
+  border-color: transparent transparent var(--white-color) transparent;
+}
+
+.shop .shop-container .shop-section .cards .card .heart {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.shop .shop-container .shop-section .cards .card .heart.fa-solid {
+  color: var(--red-color);
+}
+
+
+.shop .shop-container .shop-section .cards .card .img-box {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.shop .shop-container .shop-section .cards .card .img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  filter: drop-shadow(10px 10px 2px rgba(0, 0, 0, 0.6));
+  -webkit-filter: drop-shadow(10px 10px 2px rgba(0, 0, 0, 0.6));
+}
+
+.shop .shop-container .shop-section .cards .card .info {
+  text-align: center;
+}
+
+.shop .shop-container .shop-section .cards .card .info h4 {
+  color: var(--red-color);
+  font-size: 18px;
+  font-family: var(--font-family);
+}
+
+.shop .shop-container .shop-section .cards .card .info .sizes-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 8px 0;
+}
+
+.shop .shop-container .shop-section .cards .card .info .sizes-price li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 6px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+
+.shop .shop-container .shop-section .cards .card .info .sizes-price li.selected {
+  background-color: var(--red-color);
+  color: var(--white-color);
+}
+
+.shop .shop-container .shop-section .cards .card .info .sizes-price li .size {
+  font-weight: bold;
+  color: var(--black-color);
+}
+
+.shop .shop-container .shop-section .cards .card .info .sizes-price li .price {
+  font-weight: bold;
+  color: var(--black-color);
+}
+
+.shop .shop-container .shop-section .cards .card .info .sizes-price li.selected .size,
+.shop .shop-container .shop-section .cards .card .info .sizes-price li.selected .price {
+  color: var(--white-color);
+}
+
+.shop .shop-container .shop-section .cards .card .cart-icon {
+  position: absolute;
+  right: -12px;
+  bottom: -12px;
+  width: 24px;
+  height: 24px;
+  background-color: var(--black-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  opacity: 0.3;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.shop .shop-container .shop-section .cards .card .cart-icon.hide {
+  opacity: 1;
+  background-color: var(--red-color);
+  pointer-events: visible;
+}
+
+
+.shop .offers .container .about-food {
+  display: flex;
+  align-items: center;
+}
+
+.shop .offers .container .about-food .img-box {
+  flex: 1 50% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+
+.shop .offers .container .about-food .img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.shop .offers .container .about-food .text {
+  flex: 1 50% 0;
+}
+
+.shop .offers .container .about-food .text h3 {
+  color: var(--black-color);
+  font-size: 22px;
+}
+
+.shop .offers .container .about-food .text>p {
+  color: #666;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.shop .offers .container .about-food .text .some-info {
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.shop .offers .container .about-food .text .some-info li {
+  color: #666;
+}
+
+.shop .offers .container .about-food .text .some-info li p {
+  font-size: 14px;
+}
+
+.shop .offers .container .about-food .text a {
+  margin: 40px 0;
+  display: inline-block;
+  padding: 8px 30px;
+  background-color: var(--red-color);
+  color: var(--white-color);
+  font-weight: bold;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+
+.shop .offers .container .about-food .text a:hover {
+  background-color: var(--black-color);
+}
+
+.shop .offers .container .offers-cards {
+  margin: var(--margin);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.shop .offers .container .offers-cards .card {
+  width: 300px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 20px;
+}
+
+.shop .offers .container .offers-cards .card:first-child {
+  background-image: url(../Images/offers-2.webp);
+}
+
+.shop .offers .container .offers-cards .card:nth-child(2) {
+  background-image: url(../Images/offers-1.webp);
+}
+
+.shop .offers .container .offers-cards .card:last-child {
+  background-image: url(../Images/offers-3.webp);
+}
+
+.shop .offers .container .offers-cards .card h4 {
+  color: var(--red-color);
+  color: var(--white-color);
+  font-family: var(--font-family);
+  letter-spacing: 3px;
+  font-weight: normal;
+
+}
+
+@media (max-width: 767px) {
+  .shop .wrapper {
+    flex-direction: column;
+  }
+
+  .shop .wrapper .text {
+    width: 100%;
+  }
+
+  .shop .wrapper .img-box {
+    z-index: -1;
+    width: 250px;
+    height: 100px;
+    background-color: var(--red-color);
+    border-radius: 150px;
+    position: absolute;
+    right: -15%;
+    top: 50%;
+    transform: translateY(-50%) rotate(-9deg);
+    -webkit-transform: translateY(-50%) rotate(-9deg);
+    -moz-transform: translateY(-50%) rotate(-9deg);
+    -ms-transform: translateY(-50%) rotate(-9deg);
+    -o-transform: translateY(-50%) rotate(-9deg);
+  }
+
+  .shop .offers .container .about-food {
+    flex-direction: column;
+  }
+
+  .shop .offers .container .about-food .img-box {
+    width: 100%;
+  }
+
+  .shop .offers .container .about-food .text {
+    width: 100%;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width: 375px) {
+  .shop .wrapper .img-box {
+    display: none;
+  }
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "burger": [
+      {
+        "id": 1,
+        "name": "beef burger",
+        "price": 4
+      },
+      {
+        "id": 2,
+        "name": "Cheese Burger",
+        "price": 8
+      },
+      {
+        "id": 3,
+        "name": "Hot Burger",
+        "price": 15
+      },
+      {
+        "id": 4,
+        "name": "beef burger",
+        "price": 5.5
+      },
+      {
+        "id": 5,
+        "name": "Vegetable Burger",
+        "price": 6.5
+      },
+      {
+        "id": 6,
+        "name": "Cheese Burger",
+        "price": 12
+      },
+      {
+        "id": 7,
+        "name": "Hot Burger",
+        "price": 10
+      },
+      {
+        "id": 8,
+        "name": "Vegetable Burger",
+        "price": 12.5
+      }
+    ],
+    "pizza": [
+      {
+        "id": 1,
+        "name": "Cheese Pizza",
+        "price": 22
+      },
+      {
+        "id": 2,
+        "name": "Vegetable Pizza",
+        "price": 18
+      },
+      {
+        "id": 3,
+        "name": "Seafood Pizza",
+        "price": 25
+      },
+      {
+        "id": 4,
+        "name": "Mozzarella Pizza",
+        "price": 10
+      },
+      {
+        "id": 5,
+        "name": "Cheese Pizza",
+        "price": 16.5
+      },
+      {
+        "id": 6,
+        "name": "Vegetable Pizza",
+        "price": 11
+      },
+      {
+        "id": 7,
+        "name": "Seafood Pizza",
+        "price": 20
+      },
+      {
+        "id": 8,
+        "name": "Mozzarella Pizza",
+        "price": 6.5
+      }
+    ],
+    "iceCream": [
+      {
+        "id": 1,
+        "name": "Vanilla Ice Cream",
+        "price": 4
+      },
+      {
+        "id": 2,
+        "name": "Strawberry Ice Cream",
+        "price": 8
+      },
+      {
+        "id": 3,
+        "name": "Biscuit Ice Cream",
+        "price": 10.5
+      },
+      {
+        "id": 4,
+        "name": "Biscuit Ice Cream",
+        "price": 6.5
+      },
+      {
+        "id": 5,
+        "name": "Vanilla Ice Cream",
+        "price": 8
+      },
+      {
+        "id": 6,
+        "name": "Strawberry Ice Cream",
+        "price": 4.5
+      },
+      {
+        "id": 7,
+        "name": "Biscuit Ice Cream",
+        "price": 15
+      },
+      {
+        "id": 8,
+        "name": "Biscuit Ice Cream",
+        "price": 11
+      }
+    ]
+  }
+]
